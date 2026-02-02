@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: #EEEEEE;
+  color: #222831;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-family: "Jua", sans-serif;
+}
+
+.article-container {
+  width: 700px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.article-container p {
+  font-weight: 100;
+}
+
+.article-container a {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #222831;
+}
+
+.article-container a:hover {
+  background-color: #222831;
+  color: #EEEEEE;
+  transition: 0.3s ease;
+}
+
+.banner {
+  background-image: url("../images/kote-puerto-so5nsYDOdxw-unsplash.jpg");
+  background-position: center;
+  padding: 150px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 847px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 542px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 406px;
+  }
+}
+
+.container h1 {
+  font-size: 36pt;
+}
+
+.container p {
+  font-size: 18pt;
+}
